@@ -1,0 +1,64 @@
+@import './Product.scss';
+html{
+  scroll-behavior: smooth;
+}
+.menu{
+    align-items: right;
+    text-align: right;
+    right: auto;
+}
+.header{
+    display: flex;
+    margin-top: -62px;
+    background-color: gray;
+    height: 70px;
+    box-shadow: 0 0 5px 10px gray;
+  }
+  .header li{
+    display: inline;
+    padding: 3px;
+  }
+  .link1{
+    display: inline;
+    position: relative;
+    left: 560%;
+    top:15px;
+    transition: 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    text-decoration: none;
+    background-color:	#778899;
+    border: 2px solid #6d7c8b;
+    border-radius: 5px;
+  }
+  .link1:hover{
+    color: lightgray;
+  }
+.logotype{
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+.arrowUp{
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  background:linear-gradient(130deg,#2d2722 50%,#398a99 50%);
+  background-size:300%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 50px;
+  border-radius: 5px;
+  transition:  .5s;
+}
+.arrowUp:hover{
+  background-position:100%  0 ;
+}
